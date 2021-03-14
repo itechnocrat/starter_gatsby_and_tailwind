@@ -1,0 +1,43 @@
+{
+  "name": "Starter Gatsby and Tailwind",
+  "version": "1.0.0",
+  "description": "Заготовка для быстрого развертывания окружения Gatsby and Tailwind с конфигурацией Eslint и Prettier для MS VS Code",
+  "author": "technocrat",
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "eslint",
+    "prettier",
+    "vscode"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "@fontsource/play": "^4.2.2",
+    "gatsby": "^3.0.4",
+    "gatsby-plugin-postcss": "^4.0.0",
+    "postcss": "^8.2.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "babel-preset-gatsby": "^1.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "gatsby-plugin-eslint": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itechnocrat/starter_gatsby_and_tailwind"
+  }
+}
